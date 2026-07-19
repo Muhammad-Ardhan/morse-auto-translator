@@ -1,6 +1,9 @@
 # morse-auto-translator
 # 📡 Automatic Morse Code Translator
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Muhammad-Ardhan/morse-auto-translator?quickstart=1)
+
+
 Welcome to my first official Git hub Upload! This is a smart Command Line Interface (CLI) application that automatically translates English text to Morse code and vice versa without requiring manual mode selection.
 
 ## ✨ Features
