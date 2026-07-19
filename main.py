@@ -49,7 +49,14 @@ alphabet_to_morse = {
     ' ': '/'
 }
 
-print("\nWELCOME TO morse code translator by Pokemie(Ardhan)!!")    
+print("=" * 50)
+print("📡 AUTOMATIC MORSE CODE TRANSLATOR")
+print("   Version 1.0.0 | Developer: Ardhan")
+print("=" * 50)
+print("[Status] Auto-detect system is active.")
+print("[Manual] Enter plain text OR Morse code (use '.' and '-').")
+print("[Action] Type 'exit' to close the program.")
+print("-" * 50) 
 
     # SWAPPING SISTEM
 morse_to_alphabet = {value: key for key, value in alphabet_to_morse.items()} 
@@ -58,7 +65,11 @@ morse_to_alphabet = {value: key for key, value in alphabet_to_morse.items()}
 while True:
     
     user_input = input("\n\nMasukkan kata atau kode morse: ").strip()
-    
+
+    if user_input.lower() == 'exit':
+        print("\n[System] Thank you for using my morse translator. Goodbye!")
+        break
+        
     translated_result = ""
 
     # MORSE TO ALPHABET    
@@ -83,8 +94,7 @@ while True:
             else:
                 translated_result += char
                 
-        print(f"\nTranslate to morse code: {translated_result}")
-       
+        print(f"\nTranslate to morse code: {translated_result}")       
      
 # 12 juli 2026
 # completed
