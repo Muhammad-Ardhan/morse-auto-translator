@@ -64,7 +64,7 @@ morse_to_alphabet = {value: key for key, value in alphabet_to_morse.items()}
     
 while True:
     
-    user_input = input("\n\nMasukkan kata atau kode morse: ").strip()
+    user_input = input("\n\nEnter text or Morse code (type 'exit' to quit): ").strip()
 
     if user_input.lower() == 'exit':
         print("\n[System] Thank you for using my morse translator. Goodbye!")
