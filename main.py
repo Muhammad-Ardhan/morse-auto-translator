@@ -50,13 +50,9 @@ alphabet_to_morse = {
 }
 
 print("=" * 50)
-print("📡 AUTOMATIC MORSE CODE TRANSLATOR")
-print("   Version 1.0.0 | Developer: Ardhan")
+print("  AUTOMATIC MORSE CODE TRANSLATOR v1.0.0")
+print("  By Ardhan")
 print("=" * 50)
-print("[Status] Auto-detect system is active.")
-print("[Manual] Enter plain text OR Morse code (use '.' and '-').")
-print("[Action] Type 'exit' to close the program.")
-print("-" * 50) 
 
     # SWAPPING SISTEM
 morse_to_alphabet = {value: key for key, value in alphabet_to_morse.items()} 
